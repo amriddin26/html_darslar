@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.693);
+}
+header{
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 70px;
+    background-color: #fff;
+}
+.card{
+    width: 70%;
+    height: 45vh;
+    padding: 70px;
+    margin: 0 auto;
+    background-color: red;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 30px;
+    margin-bottom: 55px;
+    text-align: justify;
+}
+i{
+    font-size: 35px;
+    margin-left: 350px;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    transition: 0.25s;
+}
+i:hover{
+    padding: 10px;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+    border-left: 2px solid white;
+    border-right:2px solid white;
+}
