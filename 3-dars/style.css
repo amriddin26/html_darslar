@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.997);
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 300px;
+    position: relative;
+    box-shadow: 2px 2px 40px inset aqua;
+    background-color: aliceblue;
+}
+.box1{
+    position: absolute;
+    top: 15vh;
+    left: 45vh;
+    font-size: 250px;
+    z-index: 2;
+    transition: 0.30s;
+}
+.box2{
+    position: absolute;
+    top: 15vh;
+    left: 45vh;
+    font-size: 250px;
+    z-index: 1;
+    transition: 0.30s;
+}
+.box1:hover{
+    z-index: 1;
+}
+.box2:hover{
+    z-index: 3;
+}
+.card{
+    width: 70%;
+    height: 60vh;
+    padding: 70px;
+    margin-top: 100px;
+    margin: 0 auto;
+    border-radius: 40px;
+    border: 5px solid rgb(81, 81, 229);
+    background-color: red;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+p{
+    font-size: 30px;
+    margin-bottom: 55px;
+    text-align: justify;
+    color: #fff;
+}
+i{
+    font-size: 35px;
+    margin-left: 280px;
+    padding: 10px;
+    color: #fff;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    transition: 0.25s;
+}
+i:hover{
+    padding: 10px;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+    border-left: 2px solid white;
+    border-right:2px solid white;
+}
