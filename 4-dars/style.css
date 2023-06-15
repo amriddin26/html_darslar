@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url(https://storage.kun.uz/source/3/iz74i6nJGAMuZQ7v9Q3olt9VRu-fdqzX.jpg);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background: radial-gradient(rgb(5,221,245), rgb(6,150,253), rgb(43, 43, 236)); */
+}
+.container{
+    height: 60vh;
+    width: 30vw;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    perspective: 1000px;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* transform: rotate(-90deg); */
+    transform-style: preserve-3d;
+    /* transform: rotateY(130deg); */
+    animation: animate 4s infinite;
+}
+@keyframes animate{
+    0%{
+        transform: rotateX(45deg) rotateY(-45deg);
+    }
+    25%{
+        transform: rotateX(-45deg) rotateY(-45deg);
+    }
+    50%{
+        transform: rotateX(45deg) rotateY(45deg);
+    }
+    75%{
+        transform: rotateX(45deg) rotateY(-45deg);
+    }
+    100%{
+        transform: rotateX(-45deg) rotateY(45deg);
+    }
+}
+.card{
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    padding: 100px 0px;
+    color: white;
+    background-color: #000;
+    border: 2px solid wheat;
+    font-size: 32px;
+    box-sizing: border-box;
+    position: absolute;
+    transform: all 1s;
+}
+#front{
+    background-image: url(https://chakiris.club/uploads/posts/2022-02/1644421534_1-chakiris-club-p-temnii-skazochnii-les-fentezi-oboi-1.jpg);
+    justify-content: center;
+    background-size: cover;
+    color: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translateZ(125px);
+}
+#back{
+    background-image: url(https://i.7fon.org/thumb/g586474.jpg);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translateZ(-125px);
+}
+#left{
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612791426_116-p-goluboi-les-fon-159.jpg);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 125px;
+    transform: rotateY(-90deg);
+}
+#right{
+    background-image: url(https://kartinkin.net/uploads/posts/2021-04/1618034554_7-p-sinii-les-fentezi-8.jpg);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 125px;
+    transform: rotateY(90deg);
+}
+#top{
+    background-image: url(https://kartinkin.net/uploads/posts/2021-04/thumbs/1618034554_20-p-sinii-les-fentezi-23.jpg);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: 125px;
+    transform: rotateX(90deg);
+}
+#left{
+    background-image: url(https://pibig.info/uploads/posts/2021-04/1619124068_20-pibig_info-p-nochnoi-les-anime-krasivo-23.jpg);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 125px;
+    transform: rotateY(90deg);
+}
+#bottom{
+    background-image: url(https://damion.club/uploads/posts/2022-09/1664313424_10-damion-club-p-temnii-les-art-krasivo-12.jpg);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 125px;
+    transform: rotateX(-90deg);
+}
+input{
+    height: 50px;
+    width: 100px;
+    background-image: url(https://yuz.uz/imageproxy/1200x/https://yuz.uz/file/news/28f9e57fa11fe051c3fa31b786d57f27.jpg);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid black;
+    position: absolute;
+    top: -100px;
+    left: 175px;
+}
+input:focus~ .box #front{
+    transform: translateZ(180px) rotateY(360deg);
+}
+input:focus~ .box #back{
+    transform: translateZ(-180px) rotateY(360deg);
+}
+input:focus~ .box #left{
+    right: 180px;
+}
+input:focus~ .box #right{
+    left: 180px;
+}
+input:focus~ .box #top{
+    bottom: 180px;
+}
+input:focus~ .box #bottom{
+    top: 180px;
+}
