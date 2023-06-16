@@ -63,8 +63,9 @@ p{
     color: #fff;
 }
 i{
+    width: 50px;
     font-size: 35px;
-    margin-left: 280px;
+    margin-left: 222px;
     padding: 10px;
     color: #fff;
     border-bottom: 2px solid white;
@@ -77,4 +78,9 @@ i:hover{
     border-top: 2px solid red;
     border-left: 2px solid white;
     border-right:2px solid white;
+}
+.box3{
+    width: 200px;
+    height: 50px;
+    background-color: red;
 }
