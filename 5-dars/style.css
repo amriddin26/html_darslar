@@ -7,7 +7,7 @@
 body{
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.657);
+  background-color: rgba(0, 0, 0, 0.878);
 }
 header{
   width: 70%;
@@ -19,6 +19,8 @@ header{
   width: 100%;
   height: 50px;
   display: flex;
+  border-left: 2px solid #fff;
+  border-right: 2px solid white;
   background-color: red;
 }
 .navbar nav ul{
@@ -34,10 +36,87 @@ header{
   color: #fff;
   font-size: 20px;
   margin-left: 50px;
+  transition: 0.25s;
+}
+.navbar nav ul li a:hover{
+  color: aliceblue;
+  border-top: 2px solid #fff;
+  padding: 5px;
+  border-bottom: 2px solid #fff;
+  text-shadow: 4px 5px 2px black;
 }
 .navbar h1{
   font-size: 35px;
   padding: 5px;
   color: #fff;
   margin-left: 10px;
+}
+.card{
+  width: 100%;
+  height: 94.7vh;
+  border: 2px solid white;
+  background-image: url(https://media.istockphoto.com/id/627281636/photo/earth-night-space.jpg?s=612x612&w=0&k=20&c=nJyJIXDX2InYCCcP3rIxFEhGmJ_x8cEmFK90CeD9Y0s=);
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card .block{
+  width: 500px;
+  height: 600px;
+  margin: 13% auto;
+  border: 2px solid white;
+  border-radius: 10px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.077);
+}
+.box1{
+  font-size: 170px;
+  top: -100px;
+  left: 135px;
+  position: absolute;
+  transition: 0.25s;
+  z-index: 2;
+}
+.box2{
+  font-size: 170px;
+  top: -100px;
+  left: 135px;
+  position: absolute;
+  transition: 0.25s;
+  z-index: 1;
+}
+.box1:hover{
+  z-index: 1;
+}
+.box2:hover{
+  z-index: 3;
+}
+.box3{
+  margin-top: 120px;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.box4{
+  width: 100%;
+  margin: 0 auto;
+  margin: 20px;
+}
+.box4 input{
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 7px;
+}
+.box4 button{
+  width: 100px;
+  height: 30px;
+  border-radius: 7px;
+  margin-left: 20px;
+  color: #fff;
+  border: 1px solid white;
+  text-shadow: 4px 4px 2px black;
+  background-color: red;
 }
