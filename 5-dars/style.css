@@ -35,3 +35,9 @@ header{
   font-size: 20px;
   margin-left: 50px;
 }
+.navbar h1{
+  font-size: 35px;
+  padding: 5px;
+  color: #fff;
+  margin-left: 10px;
+}
