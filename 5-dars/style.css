@@ -120,3 +120,11 @@ header{
   text-shadow: 4px 4px 2px black;
   background-color: red;
 }
+.box4 textarea{
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(0, 0, 0, 0.798);
+  border: 2px solid white;
+}
