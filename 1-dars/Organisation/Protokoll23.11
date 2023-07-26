@@ -1,0 +1,34 @@
+Protokoll Treffen 23.11.
+
+
+- Sonntag 27.11.2016 15.00 Slub 66 Till/Lukas/David/(Tung?)
+- Dienstag 29.11.2016  
+- Interfaces nicht verändern ? 
+- Dienstag 16.40 Arbeitsraumtreffen ohne Lukas 
+- Frage nach Encoderreset an Ecke bei Navigation
+
+Zusammenfassung der zu erledigenden Aufgaben bis zur 1. Verteidigung:
+
+Alle : Kontrolle Powerpointfolien was fertig werden muss.
+
+Till (HMI) : 		Karte darstellen.
+
+Lukas  (Perception): 	Abstand beginnend bei 0
+			Maussensor aktivieren nach 
+			Werte in cm 
+			Lichkalibrierung linear
+
+Hamza : 		Zustandsmachine (fast fertig)
+			abstraktes Prinzip
+
+
+David(COntrol):	 	Bestimmte Position anfahren (SetPose)
+			Hamza nimmt von NAvigation Korrdinaten auf schwarz und rechnet hoch auf grau: 
+			(Aufruf der Funktion SetPose mit finalen Koordinaten)
+
+Tung(Navigation):	Messungenauigkeit schätzen 
+			Sensordatenfusion ()		
+
+ 
+	
+

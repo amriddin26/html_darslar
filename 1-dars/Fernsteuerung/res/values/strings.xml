@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">RCTestapp</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">RCTestapp</string>
+    <string name="title_activity_position_visualization">PositionVisualization</string>
+    <string name="x_Value">x:</string>
+    <string name="y_Value">y:</string>
+    <string name="title_paired_devices">Paired devices</string>
+	<string name="title_other_devices">Other devices</string>
+	<string name="title_activity_bluetooth">Bluetooth</string>
+	<string name="setupBluetooth">Connect</string>
+	<string name="text_scan_bt_devices">Scan for devices</string>
+	<string name="bt_adapter_available">Bluetooth adapter available</string>
+	<string name="toggle_text_pause">SCOUT</string>
+	<string name="toggle_text_scout">SCOUT</string>
+	<string name="togglebutton">ToggleButton</string>
+	<string name="textview_status">Status:</string>
+	<string name="angle_Value">Angle:</string>
+	<string name="distance_front_value">dist front:</string>
+	<string name="distance_front_side_value">dist front (side):</string>
+	<string name="distance_back_value">dist back:</string>
+	<string name="distance_back_side_value">dist back (side):</string>
+	<string name="bluetooth_label">Bluetooth:</string>
+	<string name="disconnetButton">Disconnect</string>
+	<string name="bt_connect_hint">Please select a Robot from the list. Make sure it has been paired, is within bluetooth reach and has been set to connect mode.</string>
+</resources>

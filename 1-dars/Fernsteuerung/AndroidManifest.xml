@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.amr.plt.rcTestapp"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="8"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <application android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme"
+        android:configChanges="keyboard">
+        <activity
+            android:name="MainActivity"
+            android:label="@string/title_activity_main" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="de.amr.plt.rcTestapp.PositionService" />
+
+        <activity
+            android:name="de.amr.plt.rcTestapp.BluetoothActivity"
+            android:label="@string/title_activity_bluetooth"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>
